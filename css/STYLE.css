@@ -1,0 +1,312 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(25, 31, 42);
+    color: white;
+    font-family:Segoe UI, 'Tahoma', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+
+.main{
+    background:rgb(24, 36, 56);
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 3rem ;
+}
+
+.main .navi{
+    display:flex;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navi li a{
+    padding-right: 3rem;
+    font-size: 1.2rem;
+}
+
+.navi li a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+}
+
+.main img{
+    height: 2rem;
+}
+
+.main ul{
+    padding-bottom: 0.6rem;
+}
+
+/*page1*/
+
+.Page1{
+    display: absolute;
+    background: rgb(24, 36, 56) url(../images/bg-curvy-desktop.svg) no-repeat center bottom/contain;
+    padding-top: 3rem;
+    padding-bottom: 13rem;
+    text-align: center;
+}
+
+.Page1 p{
+    padding: 0 30rem;
+    font-size: 1.3rem;
+    margin: 2rem 0 4rem 0;
+}
+
+.Page1 h1{
+    padding: 0 25rem;
+    font-size: 2.5rem;
+}
+
+.start{
+    font-size: 1.3rem;
+    background-color: rgb(85, 245, 245);
+    padding: 1rem 6rem;
+    border-radius: 2rem;    
+}
+
+.start:hover{
+    opacity: 0.8;
+}
+
+
+
+/*Page2*/
+
+.Page2{
+    margin: 0 15rem 10rem 15rem;
+    text-align: center;
+    display: grid;
+    grid-template-areas: 
+    's1 s2'
+    's3 s4';
+    grid-gap: 4rem;
+}
+
+#s1{grid-area: (s1);}
+#s2{grid-area: (s2);}
+#s3{grid-area: (s3);}
+#s4{grid-area: (s4);}
+
+    
+.Page2 .section{
+    padding: 0 3rem;
+}
+
+.Page2 h1{
+    font-size: 1.4rem;
+    margin: 0.6rem 0;
+}
+
+/*page3*/
+
+.Page3{
+    margin:5rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pg3-right{
+    padding-right: 10rem;
+    padding-left: 5rem;
+}
+
+.Page3 h1{
+    font-size: 2.5rem;
+    padding-right: 2rem;
+}
+
+.Page3 p{
+    margin: 1.5rem 0rem;
+}
+
+.Page3 a{
+    color:rgb(85, 245, 245);
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+
+.Page3 a:hover{
+    color:white;
+}
+
+.pg3-right img{
+    width: 2.2%;
+}
+
+/*page4*/
+
+.Page4{
+    display: flex;
+    justify-content: center;
+    margin: 0rem 3rem;
+}
+
+.box{
+    padding: 2rem;
+    margin: 2rem;
+    background-color: rgb(48, 72, 110);
+}
+.Page4 p{
+    margin-bottom: 1.8rem;
+}
+
+.profile img{
+    float: left;
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.Page4 h4{
+    font-size: 0.8rem;
+}
+
+.profile{
+    font-size:0.5rem;
+}
+
+.Page4 .quote{
+    position: relative;
+    left: 80px;
+    height: 10%;
+    z-index: -1;
+}
+
+/*Footer*/
+
+/* .head, .c1, .c2, .c3, .c4{
+    border: 1px rgb(25, 233, 67) solid;
+} */
+
+footer{
+    background: rgb(12, 19, 32) ;
+    padding: 15rem 8rem 3rem 8rem;
+
+}
+
+#columns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    height: flex-start;
+    
+}
+
+.c2, .c3{
+    width: 25%;
+    margin: 0 2rem;
+}
+
+.c4{
+    width: 19%;
+}
+
+#columns .c1{
+    max-width: 31%;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.c1 img{
+    height: 13%;
+}
+
+.c1 p{
+    padding-left: 10px;
+}
+
+#columns .c2{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5rem;
+    padding-left: 50px;
+}
+.c2 a:hover{
+    color:rgb(85, 245, 245);
+}
+
+#columns .c3 ul{
+    float: left;
+   margin-left: 3.5rem;
+
+}
+
+.c3 ul{
+    list-style: none;
+    line-height: 2.5rem;
+}
+
+.c3 a:hover{
+    font-weight: bold;
+}
+
+.c4{
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.c4 a{
+    margin: 0 0.5rem;
+    border: 1px  solid;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+.c4 a:hover{
+    color:rgb(85, 245, 245);
+}
+
+/*floating*/
+
+.floating{
+    position: relative;
+    left: 25%;
+    top: 15vh;
+    background-color: rgb(23, 37, 62) ;
+    width: 50%;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 6px black;
+    padding: 2rem 3.5rem;
+    text-align: center;
+}
+
+.floating p{
+    padding: 2rem;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+}
+
+form #email1{
+    width: 64%;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+
+form button{
+    width: 32%;
+    border-radius: 1.5rem;
+    background-color: rgb(85, 245, 245);
+    color: white;
+    cursor: pointer;
+}
+form button:hover{
+    opacity: 0.8;
+}

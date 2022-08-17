@@ -1,0 +1,160 @@
+/*RESPONSIVE TO (max-width:768px)*/
+
+body{
+      
+}
+
+.main{
+    padding: 3rem 1rem ;
+}
+
+.navi li a{
+    padding-right: 2rem;
+    font-size: 1.1rem;
+}
+
+/*page1*/
+
+.Page1{
+    padding-bottom: 5rem;
+}
+
+.Page1 img{
+   width: 90%;
+}
+
+.Page1 h1{
+    padding: 1.5rem;
+    font-size: 2rem;
+}
+
+.Page1 p{
+    padding: 0 2.6rem;
+    font-size: 1.2rem;
+    margin: 2rem 0 4rem 0;
+}
+
+/*Page2*/
+
+.Page2{
+    margin: 0rem;
+    Grid: none;
+    padding-top: 10rem ;
+}
+
+
+/*page3*/
+
+.Page3{
+    flex-wrap: wrap;
+    margin: 10rem 2rem ;
+}
+
+.Page3 img{
+    width: 90%;
+}
+
+.pg3-right{
+    padding: 0.3rem;
+    
+}
+
+.Page3 h1{
+    font-size: 1.4rem;
+}
+
+.pg3-right img{
+    width: 2%;
+}
+
+/*page4*/
+
+.Page4{
+    flex-wrap: wrap;
+    margin: 1rem ;
+}
+
+.Page4 .quote{
+    left: -180px;
+    top: 45px;
+}
+
+/*floating*/
+
+.floating{
+    position: relative;
+    left: 10%;
+    top: 25vh;
+    width: 80%;
+    padding: 2rem 1rem;
+}
+
+.floating h1{
+    font-size: 1.4rem;
+}
+
+form{
+    flex-wrap: wrap;
+    height: 8rem;
+   
+}
+
+form #email1{
+    width: 100%;
+    margin: 0 20px;
+}
+
+form button{
+    margin: 20px;
+    width: 100%;
+    height: 40%;
+}
+
+/*Footer*/
+/* .head, .c1, .c2, .c3, .c4{
+    border: 1px rgb(25, 233, 67) solid;
+}  */
+footer{
+    padding: 25rem 3rem; 
+}
+
+#columns{
+    flex-wrap: wrap;
+    margin-top: 0rem;
+    text-align: start;
+}
+
+.c2, .c3{
+    width: 100%;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.c4{
+    width: 100%;
+}
+
+#columns .c1{
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.c1 img{
+    height: 35%;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+#columns .c2{
+    padding-left: 0px;
+}
+
+#columns .c3 ul{
+    float: none;
+    margin: 2rem 0;
+}
+
+
+.c4{
+    margin-top: 5rem;
+}
